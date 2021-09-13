@@ -418,14 +418,26 @@ li a {
 
 /* footer */
 
-.footer {
+.debug .footer {
   background-color: darkblue;
+  width: 100%;
+  height: 800px;
+}
+
+.footer {
+  background-color: #23272a;
   width: 100%;
   height: 500px;
 }
 
-.contain_footer {
+.debug .contain_footer {
   background-color: rgb(112, 112, 202);
+  width: 1100px;
+  margin: auto;
+  height: 500px;
+}
+
+.contain_footer {
   width: 1100px;
   margin: auto;
   height: 500px;
@@ -433,15 +445,38 @@ li a {
 
 /* colonne footer */
 
-.uno {
+.debug .uno {
   width: 20%;
   height: 80%;
   background-color: darkkhaki;
+}
+
+.uno {
+  width: 20%;
+  height: 80%;
   float: left;
+  padding-top: 40px;
+}
+
+.title_footer {
+  color: #6d83d2;
+  font-size: 30px;
+  padding-bottom: 20px;
 }
 
 .italy {
-  width: 20px;
+  width: 25px;
+}
+
+.language {
+  float: left;
+  margin-right: 5px;
+}
+
+.social {
+  float: left;
+  color: white;
+  padding-top: 20px;
 }
 
 .due {
@@ -449,6 +484,18 @@ li a {
   height: 80%;
   background-color: rgb(197, 186, 35);
   float: left;
+}
+
+.footer_menu ul {
+  list-style: none;
+  float: left;
+  color: aliceblue;
+}
+
+.footer_menu ul li {
+  display: inline;
+  color: white;
+  padding: 1rem;
 }
 
 .tre {
@@ -474,8 +521,14 @@ li a {
 
 /* /colonne footer */
 
-.last {
+.debug .last {
   background-color: darkmagenta;
+  width: 1100px;
+  margin: auto;
+  height: 500px;
+}
+
+.last {
   width: 1100px;
   margin: auto;
   height: 500px;
