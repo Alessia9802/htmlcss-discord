@@ -11,22 +11,26 @@ body {
 
 /* header */
 
+.debug > .header {
+  width: 100%;
+  height: 66px;
+  background-color: #0f308b;
+}
+
 .header {
   width: 100%;
   background-color: #3161e0;
   padding-top: 1rem;
 }
 
-.contain_first {
-  width: 1100px;
-  margin: auto;
+.debug .contain_first {
+  background-color: blue;
   height: 50px;
 }
 
-.debug .contain_first {
+.contain_first {
   width: 1100px;
   margin: auto;
-  background-color: blue;
   height: 50px;
 }
 
@@ -73,10 +77,16 @@ li a {
   clear: both;
 }
 
-.main {
+.debug .main {
   width: 100%;
   background-color: rgb(245, 81, 122);
 }
+
+.main {
+  width: 100%;
+  margin: auto;
+}
+
 .hero_image {
   width: 100%;
   height: 500px;
@@ -86,8 +96,6 @@ li a {
 }
 
 .debug .hero_text {
-  width: 800px;
-  height: 500px;
   background-color: blueviolet;
   margin: auto;
   padding: 50px;
@@ -137,25 +145,53 @@ li a {
   text-decoration: none;
 }
 
-.contain_second {
+/* two_columns_one */
+
+.debug .contain_second {
   width: 1100px;
   margin: auto;
   height: 500px;
   background-color: rgb(226, 70, 43);
 }
 
-.column_1 {
+.contain_second {
+  width: 1100px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+.debug .column_1 {
   height: 500px;
   width: 700px;
   background-color: rgb(222, 221, 135);
+}
+
+.column_1 {
+  height: 500px;
+  width: 700px;
+}
+
+.column_1,
+.column_2 {
   float: left;
+}
+
+.debug .column_2 {
+  height: 500px;
+  width: 400px;
+  background-color: rgb(202, 179, 240);
 }
 
 .column_2 {
   height: 500px;
-  width: 400px;
-  background-color: rgb(202, 179, 240);
-  float: left;
+  width: 280px;
+  padding-top: 40px;
+}
+
+.title_one {
+  width: 200px;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
 }
 
 /* terza parte */
@@ -294,6 +330,10 @@ li a {
   height: 80%;
   background-color: darkkhaki;
   float: left;
+}
+
+.italy {
+  width: 20px;
 }
 
 .due {
