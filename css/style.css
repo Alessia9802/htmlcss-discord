@@ -492,6 +492,12 @@ li a {
   height: 80%;
   float: left;
   color: white;
+  padding: 50px;
+  line-height: 30px;
+}
+
+h3 {
+  color: #7289da;
 }
 
 /* .footer_menu ul {
@@ -505,25 +511,52 @@ li a {
   padding: 1rem;
 } */
 
-.tre {
+.debug .tre {
   width: 20%;
   height: 80%;
   background-color: rgb(196, 170, 22);
   float: left;
 }
 
-.quattro {
+.tre {
+  width: 20%;
+  height: 80%;
+  float: left;
+  color: white;
+  padding: 50px;
+  line-height: 30px;
+}
+
+.debug .quattro {
   width: 20%;
   height: 80%;
   background-color: rgb(196, 135, 22);
   float: left;
 }
 
-.cinque {
+.quattro {
+  width: 20%;
+  height: 80%;
+  float: left;
+  color: white;
+  padding: 50px;
+  line-height: 30px;
+}
+
+.debug .cinque {
   width: 20%;
   height: 80%;
   background-color: rgb(196, 121, 22);
   float: left;
+}
+
+.cinque {
+  width: 20%;
+  height: 80%;
+  float: left;
+  color: white;
+  padding: 50px;
+  line-height: 30px;
 }
 
 /* /colonne footer */
